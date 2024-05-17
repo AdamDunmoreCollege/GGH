@@ -15,7 +15,7 @@ export default function Contact(){
                 <p>Send mail to:<br><br>14 Long Craig Rigg<br>Edinburgh<br>EH5 1QT<br><br>Contact us by phone at:<br>0131 529 3901</p>
             </div>
             <div id="contact_img_div">
-                <img id="contact_img" src="/src/assets/img/gas_works_1_1.jpg"/>
+                <img id="contact_img" src="./assets/img/gas_works_1_1.jpg"/>
                 <h3>Granton Gasholders</h3>
             </div>
         </section>
