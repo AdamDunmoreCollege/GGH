@@ -23,7 +23,7 @@ export function gallery_change_image(state){
     if(active > IMG_AMOUNT){active = 1;}
     else if(active < 1){active = IMG_AMOUNT}
 
-    document.getElementById("gallery_div").innerHTML = `<img id="gallery_img" src="/src/assets/img/gallery_${active}.jpg"/>`
+    document.getElementById("gallery_div").innerHTML = `<img id="gallery_img" src="./assets/img/gallery_${active}.jpg"/>`
 }
 
 export function gallery_addListeners(){
