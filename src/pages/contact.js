@@ -25,6 +25,7 @@ export default function Contact(){
 
 export function contact_addListeners(){
     document.getElementById("contact_submit").addEventListener("click", () => {
-        window.open(`mailto:granton_gas_works@gmail.com?subject=${document.getElementById("contact_subject").value}&body=${document.getElementById("contact_form_textarea").value}`);
+        let email = "ec2249256@edinburghcollege.ac.uk";
+        window.open(`mailto:${email}?subject=${document.getElementById("contact_subject").value}&body=${document.getElementById("contact_form_textarea").value}`);
     })
 }
